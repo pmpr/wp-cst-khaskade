@@ -1,0 +1,244 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Khaskade Custom Pmpr\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2026-02-20 12:56+0330\n"
+"PO-Revision-Date: \n"
+"Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
+"Language-Team: Your Team <translations@example.com>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: build\n"
+"X-Poedit-SearchPathExcluded-2: vendor\n"
+"X-Poedit-SearchPathExcluded-3: asset\n"
+
+#: src/Pmpr/Custom/Khaskade/Khaskade.php:21
+msgid "Khaskade Custom"
+msgstr "سفارشی خاص‌کده"
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Ajax.php:38
+msgid "Forbidden"
+msgstr "ممنوع"
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Ajax.php:43
+msgid "Campaign not found"
+msgstr "کارزار پیامکی پیدا نشد"
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Ajax.php:49
+msgid "Status changed successfully to sending."
+msgstr "وضعیت با موفقیت به در حال ارسال تغییر کرد."
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Ajax.php:51
+msgid "Can not change status, please refresh page and try again."
+msgstr ""
+"در حال حاضر قادر به تغییر وضعیت این آیتم نیستیم، لطفا صفحه را رفرش کنید و "
+"مجددا امتحان کنید."
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:25
+msgid "Order Campaign SMSs"
+msgstr "کارزارهای پامکی"
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:26
+msgid "Order Campaign SMS"
+msgstr "کارزار پیامکی"
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:50
+msgid "Title"
+msgstr "عنوان"
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:54
+msgid "Message Text"
+msgstr "متن پیام"
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:59
+msgid "Orders Filter"
+msgstr "فیلتر سفارش‌ها"
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:73
+#, php-format
+msgid "Orders with \"%1$s\" between \"%2$s\" and \"%3$s\"."
+msgstr "سفارش‌هایی با وضعیت «%1$s» در بازه زمانی «%2$s» تا «%3$s»."
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:86
+#, php-format
+msgid "Including \"%s\" recipients for sending."
+msgstr "شامل %s مخاطب برای ارسال."
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:98
+msgid "Process Status"
+msgstr "وضعیت پردازش"
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:100
+msgid "Processing"
+msgstr "در حال پردازش"
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:101
+msgid "Awaiting to Approve"
+msgstr "در انتظار تأیید"
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:102
+msgid "Sending"
+msgstr "در حال ارسال"
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:103
+msgid "Completed"
+msgstr "تکمیل شد"
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:104
+msgid "Failed"
+msgstr "شکست خورد"
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:108
+msgid "Orders Start Date"
+msgstr "تاریخ شروع سفارش‌ها"
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:113
+msgid "Orders End Date"
+msgstr "تاریخ پایان سفارش‌ها"
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:118
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:290
+msgid "Order Status"
+msgstr "وضعیت سفارش"
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:127
+msgid "Users"
+msgstr "کاربران"
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:132
+msgid "Created At"
+msgstr "تاریخ ایجاد"
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:180
+#, php-format
+msgid ""
+"Please provide a non-empty text and make sure it does not exceed %s "
+"characters"
+msgstr ""
+"لطفاً متنی غیرخالی وارد کنید و مطمئن شوید طول آن بیش از %s کاراکتر نباشد."
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:206
+msgid ""
+"This action is irreversible. Once confirmed, SMS messages will be sent "
+"through your SMS panel and cannot be canceled or modified."
+msgstr ""
+"این عملیات غیرقابل بازگشت است. پس از تأیید، پیامک‌ها از طریق پنل پیامکی شما "
+"ارسال شده و امکان لغو یا ویرایش وجود نخواهد داشت."
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:210
+#, php-format
+msgid ""
+"The following message will be sent to %1$s users who placed orders with the "
+"status %2$s from %3$s to %4$s"
+msgstr ""
+"پیام زیر برای %1$s کاربر که سفارش‌هایی با وضعیت %2$s در بازه زمانی %3$s تا "
+"%4$s ثبت کرده‌اند ارسال خواهد شد"
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:220
+msgid "Are you sure you want to proceed?"
+msgstr "آیا از ادامه این عملیات اطمینان دارید؟"
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:224
+msgid "SMS Sending Confirmation (Approve Campaign)"
+msgstr "تاییدیه ارسال پیامک (تایید کارزار)"
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:229
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:236
+msgid "Approve Campaign"
+msgstr "تایید ارسال"
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:280
+#, php-format
+msgid ""
+"The entered message is invalid. Please provide a non-empty text and make "
+"sure it does not exceed %s characters."
+msgstr ""
+"پیام وارد شده نامعتبر است. لطفاً متنی غیرخالی وارد کنید و مطمئن شوید طول آن "
+"بیش از %s کاراکتر نباشد."
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:298
+msgid "Order Start Date"
+msgstr "تاریخ شروع سفارش‌ها"
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:306
+msgid "Order End Date"
+msgstr "تاریخ پایان سفارش‌ها"
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:325
+#, php-format
+msgid ""
+"No orders with status \"%1$s\" were found within the specified date range "
+"(%2$s to %3$s)."
+msgstr ""
+"در بازه زمانی مشخص‌شده (%2$s تا %3$s) هیچ سفارشی با وضعیت «%1$s» یافت نشد."
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Recipient.php:17
+msgid "Campaign Recipients"
+msgstr "مخاطبان"
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Recipient.php:18
+msgid "Campaign Recipient"
+msgstr "مخاطب"
+
+#: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Recipient.php:30
+msgid "Campaign"
+msgstr "کارزار"
+
+#: src/Pmpr/Custom/Khaskade/Setting.php:23
+msgid "Khaskade Custom Setting"
+msgstr "تنظیمات سفارشی خاص‌کده"
+
+#: src/Pmpr/Custom/Khaskade/Setting.php:24
+msgid "Setting"
+msgstr "تنظیمات"
+
+#: src/Pmpr/Custom/Khaskade/Setting.php:37
+msgid "Sender (optional)"
+msgstr "شماره‌ ارسال (اختیاری)"
+
+#: src/Pmpr/Custom/Khaskade/Setting.php:38
+msgid "If left empty, the default sender number will be used."
+msgstr "در صورت خالی بودن، شماره پیش‌فرض پنل استفاده خواهد شد."
+
+#: src/Pmpr/Custom/Khaskade/Setting.php:49
+msgid "Order Campaign"
+msgstr "کارزار پیامکی"
+
+#: src/Pmpr/Custom/Khaskade/Setting.php:50
+msgid "Configuration"
+msgstr "پیکربندی"
+
+#: src/Pmpr/Custom/Khaskade/Setting.php:55
+msgid "General"
+msgstr "عمومی"
+
+#: src/Pmpr/Custom/Khaskade/Setting.php:58
+msgid "SMS Provider"
+msgstr "ارسال پیامک با"
+
+#~ msgid "Invalid Campaign"
+#~ msgstr "کارزار پیامکی نامعتبر"
+
+#~ msgid "Unauthorized"
+#~ msgstr "غیرمجاز"
+
+#~ msgid "Invalid nonce"
+#~ msgstr "درخواست منقضی شده یا نا معتبر است"
+
+#~ msgid "Pending to Send"
+#~ msgstr "در انتظار تایید برای ارسال"
+
+#~ msgid "Approved & Sent"
+#~ msgstr "تایید و ارسال شد"
+

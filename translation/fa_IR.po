@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Khaskade Custom Pmpr\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2026-02-26 15:02+0330\n"
+"POT-Creation-Date: 2026-02-27 00:16+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -28,7 +28,7 @@ msgid "Khaskade Custom"
 msgstr "سفارشی خاص‌کده"
 
 #: src/Pmpr/Custom/Khaskade/ManualOrder/Ajax.php:34
-#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:82
+#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:83
 #: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:104
 #: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:133
 #: src/Pmpr/Custom/Khaskade/Setting.php:105
@@ -36,12 +36,12 @@ msgid "City"
 msgstr "شهر"
 
 #: src/Pmpr/Custom/Khaskade/ManualOrder/Ajax.php:35
-#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:71
+#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:99
 msgid "Mobile"
 msgstr "موبایل"
 
 #: src/Pmpr/Custom/Khaskade/ManualOrder/Ajax.php:36
-#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:87
+#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:88
 #: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:112
 #: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:145
 #: src/Pmpr/Custom/Khaskade/Setting.php:125
@@ -49,7 +49,7 @@ msgid "Address"
 msgstr "آدرس"
 
 #: src/Pmpr/Custom/Khaskade/ManualOrder/Ajax.php:37
-#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:77
+#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:78
 msgid "Province"
 msgstr "استان"
 
@@ -58,7 +58,6 @@ msgid "Products"
 msgstr "محصولات"
 
 #: src/Pmpr/Custom/Khaskade/ManualOrder/Ajax.php:39
-#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:66
 msgid "Full Name"
 msgstr "نام و نام خانوادگی"
 
@@ -78,73 +77,81 @@ msgstr "جمع کل:"
 msgid "Create New Manual Order"
 msgstr "ثبت سفارش جدید به صورت دستی"
 
-#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:93
+#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:66
+msgid "First Name"
+msgstr "نام"
+
+#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:71
+msgid "Last Name"
+msgstr "نام خانوادگی"
+
+#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:94
 #: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:116
 #: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:137
 msgid "Postal Code"
 msgstr "کد پستی"
 
-#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:98
+#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:104
 msgid "Select shipping method"
 msgstr "نحوه ارسال را انتخاب کنید"
 
-#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:105
+#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:110
 msgid "Product"
 msgstr "محصول"
 
-#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:111
+#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:116
 msgid "Search and select a product."
 msgstr "نام محصول را جستجو کرده و انتخاب کنید."
 
-#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:116
+#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:121
 msgid "Quantity"
 msgstr "تعداد"
 
-#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:126
+#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:131
 msgid "Send SMS"
 msgstr "ارسال پیامک"
 
-#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:131
+#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:136
 #: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:118
 #: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:293
 msgid "Order Status"
 msgstr "وضعیت سفارش"
 
-#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:132
+#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:137
 #: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:100
 msgid "Processing"
 msgstr "در حال پردازش"
 
-#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:133
+#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:138
 #: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:103
 msgid "Completed"
 msgstr "تکمیل شد"
 
-#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:134
+#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:139
 msgid "Cancelled"
 msgstr "لغو شده"
 
-#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:138
+#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:143
 msgid "Order Note (Optional)"
 msgstr "یاداشت سفارش (اختیاری)"
 
-#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:145
+#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:150
 msgid "Submit Order"
 msgstr "ثبت سفارش"
 
-#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:149
+#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:154
 msgid "Submit Manual Order"
 msgstr "ثبت سفارش دستی"
 
-#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:168
+#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:173
 msgid "This field is required."
 msgstr "این فیلد الزامی است."
 
-#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:169
+#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:174
 msgid "Please select a product for this item."
 msgstr "لطفاً برای این آیتم یک محصول انتخاب کنید."
 
-#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:170
+#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:175
 msgid ""
 "The products collection is invalid or incomplete. Please review the items "
 "and try again."
@@ -152,11 +159,11 @@ msgstr ""
 "لیست محصولات نامعتبر یا ناقص است. لطفاً آیتم‌ها را بررسی کرده و دوباره تلاش "
 "کنید."
 
-#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:171
+#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:176
 msgid "Quantity is required and must be greater than zero."
 msgstr "وارد کردن تعداد الزامی است و باید بزرگ‌تر از صفر باشد."
 
-#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:172
+#: src/Pmpr/Custom/Khaskade/ManualOrder/ManualOrder.php:177
 msgid "This product has already been added to the order."
 msgstr "این محصول قبلاً به سفارش اضافه شده است."
 
@@ -180,7 +187,7 @@ msgstr ""
 
 #: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:25
 msgid "Order Campaign SMSs"
-msgstr "کارزارهای پامکی"
+msgstr "کارزارهای پیامکی"
 
 #: src/Pmpr/Custom/Khaskade/OrderCampaign/Model/Campaign.php:26
 msgid "Order Campaign SMS"
@@ -333,14 +340,14 @@ msgid "Order Not Found"
 msgstr "سفارش یافت نشد"
 
 #: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:88
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:192
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:193
 msgid "Seller"
 msgstr "فروشنده"
 
 #: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:92
 #: src/Pmpr/Custom/Khaskade/Setting.php:117
 msgid "Company Code"
-msgstr "کد افتصادی"
+msgstr "کد اقتصادی"
 
 #: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:96
 #: src/Pmpr/Custom/Khaskade/Setting.php:121
@@ -360,7 +367,7 @@ msgid "State"
 msgstr "استان"
 
 #: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:125
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:193
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:194
 msgid "Shopper"
 msgstr "خریدار"
 
@@ -368,365 +375,365 @@ msgstr "خریدار"
 msgid "Customer Note"
 msgstr "یاداشت"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:155
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:156
 #, php-format
 msgid "Invoice | %s"
 msgstr "فاکتور | %s"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:161
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:162
 msgid "Shipping"
 msgstr "حمل و نقل"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:165
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:166
 msgid "Total"
 msgstr "جمع کل"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:171
 #: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:172
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:173
 msgid "Print"
 msgstr "چاپ"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:176
 #: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:177
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:178
 msgid "Save as Image"
 msgstr "ذخیره تصویر"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:181
 #: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:182
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:183
 msgid "Save as PDF"
 msgstr "ذخیره پی دی اف"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:194
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:195
 msgid "Order Date"
 msgstr "تاریخ سفارش"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:195
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:196
 msgid "Invoice Number"
 msgstr "شماره فاکتور"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:201
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:202
 msgid "Security check failed. Please refresh the page and try again."
 msgstr ""
 "مشکلی در فرآیند بررسی درخواست شما پیش آمده است، لطفا صفحه را رفرش کرده و "
 "دوباره تلاش کنید."
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:202
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:203
 msgid "Invalid Request"
 msgstr "درخواست نامعتبر"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:215
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:216
 msgid "The moment your shopping story was completed!"
 msgstr "لحظه‌ای که داستان خریدت تکمیل شد!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:216
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:217
 msgid "One step closer to what you love!"
 msgstr "یه قدم نزدیک‌تر به چیزی که دوستش داری!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:217
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:218
 msgid "The adventure begins with a special purchase!"
 msgstr "شروع ماجراجویی با یه خرید خاص!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:218
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:219
 msgid "A purchase is not just a receipt, it’s a good feeling!"
 msgstr "خرید که فقط یه رسید نیست، یه حس خوبه!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:219
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:220
 msgid "The scent of freshness, the joy of pleasure, a different experience!"
 msgstr "بوی تازگی، حس لذت، تجربه‌ای متفاوت!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:220
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:221
 msgid "When quality and taste come together!"
 msgstr "وقتی کیفیت و سلیقه به هم می‌رسن!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:221
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:222
 msgid "An invoice that signs your uniqueness!"
 msgstr "یه فاکتور که مثل امضای خاص بودنته!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:222
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:223
 msgid "What you chose is now yours!"
 msgstr "چیزی که انتخاب کردی، الان مال توئه!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:223
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:224
 msgid "From Khaskadeh, a special feeling for you!"
 msgstr "از خاص کده، یه حس خاص برای تو!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:224
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:225
 msgid "This is the beginning of a sweet experience, not the end of a purchase!"
 msgstr "این شروع یه تجربه شیرینه، نه پایان خرید!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:225
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:226
 msgid "You deserve the best, and this is a step toward having it!"
 msgstr "تو لایق بهترین‌هایی، و این یه قدم برای داشتنشونه!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:226
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:227
 msgid "This is not just a purchase, it’s a pure and unique feeling!"
 msgstr "این فقط یه خرید نیست، یه حس ناب و بی‌نظیره!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:227
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:228
 msgid "Don’t trade the feeling this purchase gives you for anything!"
 msgstr "حسی که این خرید بهت می‌ده، با هیچ چیزی عوض نکن!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:228
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:229
 msgid "A choice only the special ones understand!"
 msgstr "انتخابی که فقط خاص‌ها می‌فهمن!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:229
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:230
 msgid "Shopping means joy, and this invoice seals it!"
 msgstr "خرید یعنی لذت، و این فاکتور مهر تاییدشه!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:230
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:231
 msgid "Welcome to the world of unique taste!"
 msgstr "به دنیای سلیقه‌های خاص خوش اومدی!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:231
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:232
 msgid "Until your next purchase, may this good feeling stay with you!"
 msgstr "تا خرید بعدی، این حس خوب همراهت باشه!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:232
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:233
 msgid "A purchase that stands out from the rest!"
 msgstr "یه خرید که فرق داره با بقیه!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:233
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:234
 msgid "More than a simple receipt, it’s a memory!"
 msgstr "این بیشتر از یه رسید ساده‌ست، یه خاطره‌ست!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:234
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:235
 msgid "When a great choice becomes reality!"
 msgstr "وقتی یه انتخاب خوب، واقعیت می‌شه!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:235
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:236
 msgid "This purchase is more than ordinary!"
 msgstr "این خرید، بیشتر از یه خرید عادیه!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:236
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:237
 msgid "See? This is a special feeling!"
 msgstr "می‌بینی؟ این یه حس خاصه!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:237
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:238
 msgid "Your smile is the best approval of this invoice!"
 msgstr "لبخندت، بهترین تایید برای این فاکتوره!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:238
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:239
 msgid "You shopped to enjoy it, so enjoy it!"
 msgstr "خرید کردی که کیفشو ببری، پس لذت ببر!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:239
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:240
 msgid "When quality, joy, and uniqueness come together!"
 msgstr "وقتی کیفیت، لذت و خاص بودن یه جا جمع می‌شه!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:240
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:241
 msgid "An experience you will always remember!"
 msgstr "یه تجربه‌ای که همیشه یادت می‌مونه!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:241
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:242
 msgid "This choice is a step toward your lifestyle!"
 msgstr "این انتخاب، یه قدم به سمت سبک زندگیته!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:242
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:243
 msgid "What you love should always be yours!"
 msgstr "همیشه چیزی که دوست داری، مال توئه!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:243
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:244
 msgid "A purchase worth more than its price!"
 msgstr "خریدی که ارزشش بیشتر از قیمتشه!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:244
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:245
 msgid "You are unique, so you chose uniquely!"
 msgstr "تو خاصی، پس خاص انتخاب کردی!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:245
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:246
 msgid "The moment your happiness begins!"
 msgstr "لحظه‌ای که خوشحالی از خریدت شروع می‌شه!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:246
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:247
 msgid "An invoice is not just numbers, it’s a good feeling!"
 msgstr "فاکتور فقط یه عدد نیست، یه حس خوبه!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:247
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:248
 msgid "This is a memory, not just a purchase!"
 msgstr "این یه خاطره‌ست، نه فقط یه خرید!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:248
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:249
 msgid "The difference is in the details, and you chose the best ones!"
 msgstr "تفاوت توی جزئیاته، و تو بهترین جزئیات رو انتخاب کردی!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:249
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:250
 msgid "Your journey started with a special purchase!"
 msgstr "سفرت با یه خرید خاص شروع شد!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:250
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:251
 msgid "Quality, emotion, and joy flow through this invoice!"
 msgstr "کیفیت، احساس و لذت توی این فاکتور موج می‌زنه!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:251
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:252
 msgid "What you chose is worth every moment!"
 msgstr "چیزی که انتخاب کردی، ارزش لحظه‌ها رو داره!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:252
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:253
 msgid "Your smile is our success!"
 msgstr "لبخند تو، موفقیت ماست!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:253
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:254
 msgid "A purchase you will always remember!"
 msgstr "یه خرید که همیشه یادت می‌مونه!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:254
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:255
 msgid "The good feeling starts here!"
 msgstr "احساس خوب از اینجا شروع می‌شه!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:255
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:256
 msgid "A purchase that will make your day better!"
 msgstr "یک خریدی که قراره حالتو عالی کنه!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:256
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:257
 msgid "What you needed is now with you!"
 msgstr "چیزی که لازم داشتی، الان پیشته!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:257
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:258
 msgid "Your special shopping story begins here!"
 msgstr "داستان خاص خریدت از اینجا شروع شد!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:258
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:259
 msgid "Quality, taste, and a great purchase in one invoice!"
 msgstr "کیفیت، سلیقه و یه خرید عالی توی این فاکتوره!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:259
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:260
 msgid "When you choose the best, the best reaches you!"
 msgstr "وقتی بهترینا رو انتخاب می‌کنی، بهترینا بهت می‌رسن!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:260
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:261
 msgid "This is not an ordinary invoice, it’s an amazing feeling!"
 msgstr "این یه فاکتور عادی نیست، یه حس فوق‌العاده‌ست!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:261
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:262
 msgid "What you bought is part of your lifestyle!"
 msgstr "چیزی که خریدی، تکه‌ای از سبک زندگیته!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:262
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:263
 msgid "An invoice that tastes like a great experience!"
 msgstr "انتخابی که فقط خاص‌ها می‌فهمن!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:263
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:264
 msgid "Quality is exactly what you’re holding now!"
 msgstr "کیفیت یعنی همین چیزی که الان توی دستاته!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:264
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:265
 msgid "A purchase that makes you feel better!"
 msgstr "یک خریدی که حالتو بهتر می‌کنه!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:265
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:266
 msgid "Your journey toward a better experience has begun!"
 msgstr "سفرت به سمت یه تجربه بهتر شروع شد!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:266
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:267
 msgid "This purchase was not accidental, it was a decision!"
 msgstr "خریدی که انتخابش اتفاقی نبود، یه تصمیم بود!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:267
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:268
 msgid "Enjoy this purchase, it’s truly yours!"
 msgstr "از این خرید لذت ببر، چون برای توئه!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:268
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:269
 msgid "Good choices create good feelings!"
 msgstr "انتخابای خوب، حسای خوب می‌سازن!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:269
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:270
 msgid "This is where tasteful people shop!"
 msgstr "اینجا جاییه که خوش‌سلیقه‌ها خرید می‌کنن!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:270
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:271
 msgid "You just unlocked a great experience!"
 msgstr "تو یه تجربه عالی رو باز کردی!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:271
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:272
 msgid "The product you wanted is now yours!"
 msgstr "محصولی که خواستی، الان پیشته!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:272
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:273
 msgid "This invoice is special because it was issued for someone special!"
 msgstr "این یه فاکتور خاصه، چون برای یه فرد خاص صادر شده!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:273
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:274
 msgid "Life is short, make it joyful with special purchases!"
 msgstr "زندگی کوتاهه، برای لذت بردن از خریدات وقت بذار!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:274
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:275
 msgid "What you hold is the result of great taste and choice!"
 msgstr "چیزی که دستته، حاصل سلیقه و انتخاب درستته!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:275
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:276
 msgid "When a purchase turns into a memory!"
 msgstr "وقتی یه خرید، یه خاطره می‌شه!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:276
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:277
 msgid "The product you chose was worth the wait!"
 msgstr "محصولی که انتخاب کردی، ارزش صبر کردن رو داشت!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:277
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:278
 msgid "Now it’s time to enjoy your purchase!"
 msgstr "حالا وقتشه که از خریدت لذت ببری!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:278
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:279
 msgid "Quality, happiness, and good vibes inside this invoice!"
 msgstr "کیفیت، خوشحالی و حس خوب توی این فاکتوره!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:279
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:280
 msgid "You didn’t just buy, you gained an experience!"
 msgstr "تو خرید نکردی، یه تجربه گرفتی!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:280
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:281
 msgid "The best feeling? Unboxing what you love!"
 msgstr "بهترین حس؟ باز کردن چیزی که عاشقشی!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:281
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:282
 msgid "Your purchase reflects your taste!"
 msgstr "خرید تو، نشون‌دهنده سلیقه توئه!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:282
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:283
 msgid "Every time you see this, you’ll feel good!"
 msgstr "هر بار که اینو ببینی، حس خوبی خواهی داشت!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:283
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:284
 msgid "A purchase that brings good vibes with it!"
 msgstr "یه خرید که یه حس خوب با خودش میاره!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:284
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:285
 msgid "This is not just an invoice, it’s a special moment!"
 msgstr "این فقط یه فاکتور نیست، یه لحظه خاصه!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:285
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:286
 msgid "Every purchase tells a story, and yours has just begun!"
 msgstr "هر خرید، یه داستانه و این داستانت تازه شروع شده!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:286
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:287
 msgid "Enjoy your purchase, you deserve it!"
 msgstr "از خریدت لذت ببر، چون لیاقتشو داری!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:287
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:288
 msgid "You got what you wanted, now enjoy it!"
 msgstr "به چیزی که خواستی رسیدی، وقت لذت بردنه!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:288
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:289
 msgid "This invoice is not ordinary, it’s a memory!"
 msgstr "این یه فاکتور معمولی نیست، یه خاطره‌ست!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:289
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:290
 msgid "This purchase is more than a transaction, it’s an experience!"
 msgstr "این خرید، بیشتر از یه معامله‌ست، یه تجربه‌ست!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:290
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:291
 msgid "Your choice defines you, and you chose perfectly!"
 msgstr "انتخابت تو رو تعریف می‌کنه، و تو عالی انتخاب کردی!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:291
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:292
 msgid "What you bought is now part of your life!"
 msgstr "چیزی که خریدی، از الان بخشی از زندگیته!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:292
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:293
 msgid "One purchase, one experience, one special memory!"
 msgstr "یه خرید، یه تجربه، یه خاطره خاص!"
 
-#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:293
+#: src/Pmpr/Custom/Khaskade/OrderInvoice/OrderInvoice.php:294
 msgid "An invoice approved by your smile!"
 msgstr "فاکتوری که لبخند تو، بهترین تاییدشه!"
 

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html;">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ document_title|raw }}</title>
+    {{ pmpr_do_action('pr_wc_invoice_head') }}
+</head>
+<body>
+<nav class="invoice-nav">
+    {% for key, action in nav_actions %}
+        <button id="invoice_{{ key|esc_attr }}" type="button"
+                data-name="invoice-{{ order_number|esc_attr }}"
+                class="invoice-action"
+                title="{{ action.label|raw }}">
+            {{ render_icon(action.icon, {class: 'icon-white'}, 1)|raw }}
+            <span class="action-text">{{ action.text|raw }}</span>
+        </button>
+    {% endfor %}
+</nav>
+
+

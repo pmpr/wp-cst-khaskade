@@ -1,0 +1,89 @@
+{% include get_template('header', _self) %}
+<page size="{{ page_size|esc_attr }}">
+    <div id="invoice" class="invoice" dir="rtl">
+        <header class="invoice-header flex-center">
+            <table>
+                <tbody>
+                <tr>
+                    <td class="invoice-logo">
+                        {% if invoice_logo is not empty %}
+                            <img src="{{ invoice_logo|esc_url }}" alt="invoice logo">
+                        {% endif %}
+                    </td>
+                    <td class="invoice-title">
+                        <span class="invoice-text">{{ invoice_text|raw }}</span>
+                    </td>
+                    <td class="invoice-info">
+                        <div class="order-number">{{ labels.order_number|raw }}: {{ order_number|number|raw }}</div>
+                        <div class="order-date">{{ labels.order_date|raw }}: {{ order_date|raw }}</div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </header>
+        <main class="invoice-main">
+            <div class="order-seller">
+                <table class="order-table">
+                    <thead>
+                    <tr>
+                        <th class="seller">{{ labels.seller|raw }}</th>
+                        <th class="shopper">{{ labels.shopper|raw }}</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="seller">
+                            {% for key, item in seller_items %}
+                                {% if item.value is not empty %}
+                                    <div class="info-item">
+                                        <span class="key">{{ item.label|raw }}:</span>
+                                        <span class="value">{{ item.value|raw }}</span>
+                                    </div>
+                                {% endif %}
+                            {% endfor %}
+                        </td>
+                        <td class="shopper">
+                            {% for key, item in shopper_items %}
+                                {% if item.value is not empty %}
+                                    {% if key is same as('address') or key is same as('customer_note') %}
+                                        <div class="info-item">
+                                            <span class="key">{{ item.label|raw }}:</span>
+                                            <span class="value">{{ item.value|raw }}</span>
+                                        </div>
+                                    {% else %}
+                                        <span class="info-item">
+                                        <span class="key">{{ item.label|raw }}:</span>
+                                        <span class="value">{{ item.value|raw }}</span>
+                                    </span>
+                                    {% endif %}
+                                {% endif %}
+                            {% endfor %}
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+        {% if can_be_co_seller
+            and co_seller_text is not empty %}
+            <div class="co-seller-box">
+                {{ co_seller_text|raw }}
+            </div>
+        {% endif %}
+        <div class="invoice-extra">
+            <table>
+                <tbody>
+                {% for key, extra_info in extra_infos %}
+                    <tr class="info-item" id="invoice_{{ key|esc_attr }}">
+                        <td class="key">{{ extra_info.label|raw }}:</td>
+                        <td class="value">{{ extra_info.value|raw }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {{ render_if_has_content('p', {class: 'invoice-thanks'}, thanks_message) }}
+    </div>
+</page>
+{% include get_template('footer', _self) %}
+
